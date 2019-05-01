@@ -1,0 +1,18 @@
+ItemToPurchase.c:5:6: error: redefinition of ‘MakeItemBlank’
+ void MakeItemBlank(ItemToPurchase* input){
+      ^~~~~~~~~~~~~
+In file included from ItemToPurchase.c:3:0:
+ItemToPurchase.h:10:10: note: previous definition of ‘MakeItemBlank’ was here
+     void MakeItemBlank(ItemToPurchase* input){
+          ^~~~~~~~~~~~~
+ItemToPurchase.c:13:6: error: redefinition of ‘PrintItemCost’
+ void PrintItemCost(ItemToPurchase input){
+      ^~~~~~~~~~~~~
+In file included from ItemToPurchase.c:3:0:
+ItemToPurchase.h:13:10: note: previous definition of ‘PrintItemCost’ was here
+     void PrintItemCost(ItemToPurchase input){
+          ^~~~~~~~~~~~~
+main.c: In function ‘main’:
+main.c:31:9: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+         gets(name); // gets the whole line
+         ^~~~
