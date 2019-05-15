@@ -1,0 +1,10 @@
+> Executing task in folder c example: /usr/bin/g++ -g '/Users/markkazzaz/Downloads/c example/redo struct/main.cpp' -o '/Users/markkazzaz/Downloads/c example/redo struct/main' <
+
+Undefined symbols for architecture x86_64:
+  "ItemToPurchase::ItemToPurchase(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, double, double)", referenced from:
+      _main in main-6a7889.o
+  "ItemToPurchase::ItemToPurchase()", referenced from:
+      _main in main-6a7889.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+The terminal process terminated with exit code: 1
